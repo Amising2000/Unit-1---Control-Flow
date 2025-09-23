@@ -1,5 +1,5 @@
-weight = input("Enter your weight: ")
-height = input("Enter your height: ")
+weight = float(input("Enter your weight (in pounds): "))
+height = float(input("Enter your height (in inches): "))
 
 BMI = (weight / (height * height)) * 703
 
