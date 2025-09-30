@@ -32,4 +32,10 @@ for char in text:
         digit_count += 1
         
 # Display the results
-print(f"")
+print(f"Total Characters: {total_chars}")
+print(f"Letters: {letter_count}")
+print(f"Digits: {digit_count}")
+print(f"Uppercase letters: {uppercase_count}")
+print(f"Lowercase letters: {lowercase_count}")
+print(f"First letter: {first_letter}")
+print(f"Last letter: {last_letter}")
